@@ -1,13 +1,8 @@
 # Commission Calculator
 
-This program calculates employee commissions based on sales, categorizes them into salary ranges, and generates a report.
+This C project is designed to help you calculate employee commissions based on sales and categorize them into different salary ranges. The way it works is by taking the sales data you input, calculating the earnings with a base salary of $200 plus 9% commission on sales, and then categorizing employees based on their commission earnings. The program also generates a report and saves commission statistics to a text file. You can enter sales data for multiple employees before generating the final report. I created this project to simplify commission calculations for businesses. Inspired by the need for quick and accurate payroll management, I wanted to provide a tool that makes it easy for you to track and categorize employee earnings based on their performance.
 
-- **Commission Calculation**: Computes earnings as a base salary of $200 plus 9% commission on sales.
-- **Salary Range Distribution**: Categorizes employees based on their commission earnings.
-- **Report Generation**: Saves commission statistics to a text file.
-- **User-Friendly Input Handling**: Allows multiple employee sales entries before generating the final report.
-
-## Example Usage
+## Example Output
 ```
 Enter employee gross sales (-1 to end): 5000
 Employee Commission is $650.00
